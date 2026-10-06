@@ -1,0 +1,53 @@
+:root{--blue:#2563EB;--dark-blue:#1D4ED8;--white:#fff;--light:#F8FAFC;--text:#111827;--muted:#64748B;--border:#E2E8F0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);background:var(--white);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:100%;max-width:1100px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:10;background:var(--white);border-bottom:1px solid var(--border)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 20px;flex-wrap:wrap}
+.logo{font-weight:800;font-size:1.25rem;letter-spacing:2px;color:var(--blue)}
+.nav ul{display:flex;gap:28px;list-style:none;flex-wrap:wrap}
+.nav ul a{font-size:.95rem;font-weight:500;color:var(--muted);padding-bottom:4px;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+.nav ul a:hover,.nav ul a.active{color:var(--blue);border-color:var(--blue)}
+section{padding:72px 0}
+.alt{background:var(--light)}
+.hero{text-align:center;padding:96px 0 72px}
+.hero h1{font-size:clamp(2.4rem,7vw,4rem);font-weight:800;letter-spacing:2px;color:var(--text)}
+.hero p{max-width:600px;margin:20px auto 32px;color:var(--muted);font-size:1.1rem}
+.btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 28px;border-radius:6px;font-weight:600;font-size:.9rem;letter-spacing:1px;border:2px solid var(--blue);transition:background .2s,color .2s}
+.btn-primary{background:var(--blue);color:var(--white)}
+.btn-primary:hover{background:var(--dark-blue);border-color:var(--dark-blue)}
+.btn-outline{background:var(--white);color:var(--blue)}
+.btn-outline:hover{background:var(--blue);color:var(--white)}
+h2{font-size:1.6rem;font-weight:700;letter-spacing:1px;margin-bottom:28px}
+.center{text-align:center}
+.video-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:8px;overflow:hidden;border:1px solid var(--border);box-shadow:0 2px 8px rgba(15,23,42,.06)}
+.video-wrap video{width:100%;height:100%;object-fit:contain;display:block;background:#000}
+.play-btn{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:68px;height:68px;border-radius:50%;border:0;background:var(--blue);cursor:pointer;transition:background .2s}
+.play-btn:hover{background:var(--dark-blue)}
+.play-btn::after{content:"";position:absolute;top:50%;left:54%;transform:translate(-50%,-50%);border-style:solid;border-width:11px 0 11px 18px;border-color:transparent transparent transparent #fff}
+.video-wrap.playing .play-btn{display:none}
+.showreel{max-width:960px;margin:0 auto}
+.list{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.list li{background:var(--white);border:1px solid var(--border);border-radius:6px;padding:16px 18px;font-weight:500;border-left:3px solid var(--blue)}
+.cta{text-align:center}
+.cta h2{margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:32px}
+.card{background:var(--white);border:1px solid var(--border);border-radius:8px;padding:16px;box-shadow:0 1px 4px rgba(15,23,42,.05)}
+.card h3{margin:16px 0 4px;font-size:1.05rem;letter-spacing:1px;color:var(--blue)}
+.card p{color:var(--muted);font-size:.95rem}
+.page-title{padding:64px 0 0}
+.about p{color:var(--muted);max-width:720px;margin-bottom:16px;font-size:1.05rem}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:32px;margin-top:40px}
+h3.sub{font-size:1rem;letter-spacing:1px;margin-bottom:12px;color:var(--blue)}
+.bullets{list-style:none}
+.bullets li{padding:6px 0;border-bottom:1px solid var(--border)}
+.contact-list{list-style:none}
+.contact-list li{padding:6px 0;color:var(--muted);overflow-wrap:anywhere}
+.contact-list strong{color:var(--text)}
+.contact-list a{color:var(--blue)}
+.contact-list a:hover{text-decoration:underline}
+footer{border-top:1px solid var(--border);padding:24px 0;text-align:center;color:var(--muted);font-size:.9rem}
+@media(max-width:640px){section{padding:48px 0}.hero{padding:56px 0 48px}.nav{justify-content:center}.nav ul{gap:18px}.play-btn{width:56px;height:56px}}
