@@ -56,7 +56,7 @@ window.SITE_CONFIG = {
           a single video below.
      The link must be a DIRECT .mp4 link. YouTube, Google Drive and
      Instagram page links will NOT work. */
-  videoFolder: "/veeru-s-portfolio-/public/videos/",
+  videoFolder: "public/videos/",
   imageFolder: "public/images/",
 
   /* ---------- 6. SHOWREEL (the big video on the Home page) ----------
