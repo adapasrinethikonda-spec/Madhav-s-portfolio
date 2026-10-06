@@ -78,7 +78,7 @@ window.SITE_CONFIG = {
   videos: [
     { video: "video-01.mp4", poster: "video-01.jpg", label: "Video 1" },
     { video: "video-02.mp4", poster: "video-02.jpg", label: "Video 2" },
-    { video: "video-03.mp4", poster: "video-03.jpg", label: "Video 3" },
+    { video: "video-01", poster: "video-03.jpg", label: "Video 3" },
     { video: "video-04.mp4", poster: "video-04.jpg", label: "Video 4" },
     { video: "video-05.mp4", poster: "video-05.jpg", label: "Video 5" }
   ],
