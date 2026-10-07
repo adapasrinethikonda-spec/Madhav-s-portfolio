@@ -65,7 +65,7 @@ window.SITE_CONFIG = {
      here (for example "showreel.mp4" and "showreel.jpg"). */
   showreel: {
     video: "showreel.mp4",
-    poster: "video-01.jpg",
+    poster: "showreel.mp4.jpg",
     label: "VEERU showreel"
   },
 
