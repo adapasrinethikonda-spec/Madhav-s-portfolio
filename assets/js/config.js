@@ -64,7 +64,7 @@ window.SITE_CONFIG = {
      showreel, put the file in public/videos/ and change the names
      here (for example "showreel.mp4" and "showreel.jpg"). */
   showreel: {
-    video: "showreel",
+    video: "Sequence 01_1",
     poster: "image-1",
     label: "VEERU showreel"
   },
