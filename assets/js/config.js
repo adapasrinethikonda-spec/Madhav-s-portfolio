@@ -76,9 +76,9 @@ window.SITE_CONFIG = {
 
      To change a video later, just change the file name on its line. */
   videos: [
-    { video: "video-03", poster: "WhatsApp Image 2026-10-06 at 7.50.07 PM.jpg", label: "Video 1" },
+    { video: "video-03", poster: "video-03.jpg", label: "Video 1" },
     { video: "video-02", poster: "video-02.jpg", label: "Video 2" },
-    { video: "video-01", poster: "video-03.jpg", label: "Video 3" },
+    { video: "video-01", poster: "video-01.jpg", label: "Video 3" },
     { video: "video-04", poster: "video-04.jpg", label: "Video 4" },
     { video: "video-05", poster: "video-05.jpg", label: "Video 5" }
   ],
