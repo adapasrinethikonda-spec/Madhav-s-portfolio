@@ -1,5 +1,5 @@
 /* ==========================================================================
-   VEERU PORTFOLIO — SETTINGS FILE
+   MADHAV PORTFOLIO — SETTINGS FILE
    --------------------------------------------------------------------------
    This is the ONLY file you need to edit to update your website.
    Change the text between the quote marks "like this", save the file,
@@ -13,7 +13,7 @@
 window.SITE_CONFIG = {
 
   /* ---------- 1. YOUR DETAILS ---------- */
-  name: "VEERU",
+  name: "MADHAV",
   jobTitle: "Video Editor",
   location: "Vijayawada, India",
   email: "gingaeditsofficial@gmail.com",
@@ -27,7 +27,7 @@ window.SITE_CONFIG = {
   /* ---------- 3. ABOUT TEXT (shown on the About page) ----------
      Each line inside [ ] is one paragraph. */
   about: [
-    "I'm VEERU, a video editor from Vijayawada with 1 year of experience. Most of my work is YouTube documentary editing, along with reels, shorts and long-form YouTube content.",
+    "I'm MADHAV, a video editor from Vijayawada with 1 year of experience. Most of my work is YouTube documentary editing, along with reels, shorts and long-form YouTube content.",
     "I care about clean storytelling, steady pacing and tidy visual editing. I also enjoy adding motion graphics where they help the story."
   ],
 
@@ -65,8 +65,8 @@ window.SITE_CONFIG = {
      here (for example "showreel.mp4" and "showreel.jpg"). */
   showreel: {
     video: "showreel.mp4",
-    poster: "showreel.jpg",
-    label: "VEERU showreel"
+    poster:"showreel.jpg",
+    label: "MADHAV showreel"
   },
 
   /* ---------- 7. PREVIOUS WORK (exactly 5 videos) ----------
