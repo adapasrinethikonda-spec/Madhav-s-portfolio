@@ -1,5 +1,5 @@
 /* ==========================================================================
-   VEERU PORTFOLIO — SITE SCRIPT
+   MADHAV PORTFOLIO — SITE SCRIPT
    You do not need to edit this file. Everything you can change is in
    config.js. This file reads those settings and builds the pages.
    ========================================================================== */
